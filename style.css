@@ -1,0 +1,50 @@
+/* Global Styles */
+* {
+margin: 0;
+padding: 0;
+}
+
+/* Aspect Ratio Styles */
+.aspect-ratio-grid {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+align-items: center;
+}
+
+.aspect-ratio-img {
+width: 1;
+height: 1;
+object-fit: cover;
+}
+
+/* Chat Box Styles */
+.chat-box {
+background-color: #f9f9f9;
+border: 1px solid #ccc;
+padding: 20px;
+}
+
+.chat-header {
+font-size: 16px;
+font-weight: bold;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+
+.chat-body {
+padding: 10px;
+}
+
+.message-input {
+font-size: 14px;
+margin-bottom: 10px;
+}
+
+/* Responsive Media Queries */
+@media (min-width: 768px) {
+.aspect-ratio-galleria {
+flex-direction: row;
+}
+
+}
